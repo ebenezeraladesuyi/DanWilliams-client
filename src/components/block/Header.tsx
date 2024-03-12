@@ -4,7 +4,8 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { NavLink } from 'react-router-dom';
 import { Link } from "react-scroll";
-// import { motion } from "framer-motion";
+import { FaSquareFacebook, FaLinkedin, FaSquareInstagram } from "react-icons/fa6";
+import { FaTwitterSquare } from "react-icons/fa";
 
 const Header = () => {
 
@@ -15,12 +16,28 @@ const Header = () => {
     }
 
   return (
-    <div className={`w-full h-[90px] flex justify-center items-center shadow-m font-pop fixed z-40 bg-transparent text-white  shadow-m `}>
-        <div className="w-[90%] h-full flex justify-between items-center ">
+    <div className={`w-full h-[90px] lg:h-[130px flex justify-center items-center shadow-m font-pop fixed z-40 bg-transparent text-white  shadow-m `}>
+        <div className="w-[90%] h-full flex flex-co justify-between items-center ">
 
-            <div className='p-2 rounded-md bg-white shadow-md w-[50px] md:[70px] z-40'>
+            {/* <div className='hidden w-[100%] h-full lg:flex justify-between items-center'>
+
+                <div className='p-2 rounded-md bg-white shadow-md w-[50px] md:[70px] z-40'>
+                    <img className="w-full " src={logo} alt="W2H-logo" />
+                </div>
+
+            </div> */}
+
+            {/* <div className='flex justify-between items-center w-full'> */}
+            <div className='lg:hidde p-2 rounded-md bg-white shadow-md w-[50px] md:[70px] z-40'>
                 <img className="w-full " src={logo} alt="W2H-logo" />
             </div>
+
+            {/* <div className='hidden lg:flex p-2 px-6 rounded-md bg-white shadow-md text-[20px] text-black gap-6'>
+                <a className='decoration- cursor-pointer text-black '><FaSquareFacebook /></a>
+                <a className='decoration-non cursor-pointer text-black '><FaTwitterSquare /></a>
+                <a className='decoration-non cursor-pointer text-black '><FaLinkedin /></a>
+                <a className='decoration-non cursor-pointer text-black '><FaSquareInstagram /></a>
+            </div> */}
 
             {/* <h4 className='text-[17px] z-50 shadow-md text-white bg-opacity-40 rounded-[30px] relative p-1 px-3 rounded-m bg-black'>DanWilliams Consult</h4> */}
 
@@ -70,6 +87,7 @@ const Header = () => {
             }
 
             </div>
+            {/* </div> */}
 
         </div>
 

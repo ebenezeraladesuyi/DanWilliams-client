@@ -65,7 +65,7 @@ const Hero = () => {
             >
               {/* <button className="bg-white text-blue-900 font-bold py-2 px-6 rounded-full mr-4 hover:bg-blue-800 hover:text-white transition duration-300 ease-in-out">Get Started</button> */}
 
-              <button className="border bg-white text-black font-bold py-2 px-6 hover:px-8 rounded-full hover:bg-black hover:text-white transition-all duration-300 ease-in-out hover:border-none borer-none animate-bounce">Learn More</button>
+              <button className="border bg-white text-black font-bold py-2 px-6 hover:px-8 rounded-full hover:bg-black hover:text-white transition-all duration-300 ease-in-out hover:border-none borer-none animate-bounce">Let's Get You Started</button>
             </motion.div>
           </div>
           
