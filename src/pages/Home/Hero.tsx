@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 const Hero = () => {
   return (
     <motion.section
-      className="hero h-[100vh] w-full bg-hero-bg bg-center bg-cover bg-opacity-8 text-white py-20 flex justify-center items-center font-pop relaative"
+      className="hero h-[100vh] w-full bg-hero-bg bg-center bg-cover bg-opacity-8 text-white py-20 flex justify-center items-center font-pop relative"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.2 }}
@@ -65,7 +65,7 @@ const Hero = () => {
             >
               {/* <button className="bg-white text-blue-900 font-bold py-2 px-6 rounded-full mr-4 hover:bg-blue-800 hover:text-white transition duration-300 ease-in-out">Get Started</button> */}
 
-              <button className="border bg-white text-black font-bold py-2 px-6 hover:px-8 rounded-full hover:bg-black hover:text-white transition-all duration-300 ease-in-out hover:border-none borer-none animate-bounce">Let's Get You Started</button>
+              <a href="https://bit.ly/DanWilliamsConsult" className="border bg-white text-black font-bold py-2 px-6 hover:px-8 rounded-full hover:bg-black hover:text-white transition-all duration-300 ease-in-out hover:border-none borer-none animate-bounce">Let's Get You Started</a>
             </motion.div>
           </div>
           
