@@ -38,7 +38,7 @@ const Hero = () => {
                                 .pauseFor(1500)
                                 .deleteAll()
 
-                                .typeString("INNOVATION")
+                                .typeString("BRANDING")
                                 .pauseFor(1500)
                                 .deleteAll()
 
@@ -56,7 +56,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.9 }}
             >
-              We provides comprehensive solutions for business setup and management in Nigeria.
+              We provide comprehensive solutions for business setup and management in Nigeria.
             </motion.p>
             <motion.div
               initial={{ opacity: 0 }}

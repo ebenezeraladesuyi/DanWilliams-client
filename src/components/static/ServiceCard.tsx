@@ -11,9 +11,9 @@ interface iServiceCard {
 
 const ServiceCard:React.FC<iServiceCard> = ({icon, title, details}) => {
   return (
-    <div className="w-[250px] md:w-[210px] h-[200px] lg:w-[290px] lg:h-[220px] flex items-cente justify-between hover:text-white hover:bg-black items-center p-2 rounded-md transition-all duration-1000 ease-in-out">
+    <div className="w-[270px] md:w-[210px] h-[200px] lg:w-[300px] lg:h-[220px] flex items-cente justify-between hover:text-white hover:bg-black items-center p-2 rounded-md transition-all duration-1000 ease-in-out">
 
-        <div className="text-[40px] md:text-[30px] lg:text-[50px]">
+        <div className="text-[30px] md:text-[20px] lg:text-[40px] border-[1px] p-2 rounded-md border-black">
             {/* <BiSpreadsheet /> */}
             {icon}
         </div>

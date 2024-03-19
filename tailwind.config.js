@@ -12,6 +12,7 @@ export default {
       },
       backgroundImage: {
         'hero-bg' : "url('/src/assets/images/biz6.jpg')",
+        'lady-bg' : "url('/src/assets/images/lady.jpg')",
       }
     },
   },

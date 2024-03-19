@@ -4,8 +4,6 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { NavLink } from 'react-router-dom';
 import { Link } from "react-scroll";
-import { FaSquareFacebook, FaLinkedin, FaSquareInstagram } from "react-icons/fa6";
-import { FaTwitterSquare } from "react-icons/fa";
 
 const Header = () => {
 
@@ -41,7 +39,7 @@ const Header = () => {
 
             {/* <h4 className='text-[17px] z-50 shadow-md text-white bg-opacity-40 rounded-[30px] relative p-1 px-3 rounded-m bg-black'>DanWilliams Consult</h4> */}
 
-            <div className='lg:bg-white lg:bg-opacity-40 rounded-[30px] shadow-md p-3'>
+            <div className='lg:bg-white lg:bg-opacity-4 rounded-[30px] lg:shadow-md p-3'>
                 <li className="hidden lg:flex items-center gap-5 text-[15px] transition-all duration-500 ease-in-out">
                     <NavLink to="/">
                         <ol className='text-black hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Home</ol>
