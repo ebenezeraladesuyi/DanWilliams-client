@@ -3,8 +3,9 @@
 import { CiLocationOn } from "react-icons/ci";
 import { LuPhoneCall } from "react-icons/lu";
 import { MdOutlineAttachEmail } from "react-icons/md";
-import { FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagramSquare, FaWhatsappSquare } from "react-icons/fa";
 import logo from "../../assets/images/DWC-Logo2.png"
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -18,7 +19,7 @@ const Footer = () => {
           <hr className="border-[2px] w-[50px] border-[#eedfb0]" />
 
           <h6 className="text-[12px] md:text-[14px]">
-            We are a trusted company formation agancy in Nigeria. With over five (5) years of experience working with local and international clients, and a combined wealth of specialist outcome and result mixed with professionalism.
+            We are a trusted company formation agency in Nigeria. With over five (5) years of experience working with local and international clients, and a combined wealth of specialist outcome and result mixed with professionalism.
           </h6>
 
           <div className="text-[12px] font-bol flex flex-col gap-2">
@@ -70,9 +71,9 @@ const Footer = () => {
           <hr className="border-[2px] w-[50px] border-[#eedfb0]" />
 
           <div className="flex gap-2 items-center text-[22px]">
-            <a className="text-white" href=""><FaFacebookSquare /></a>
-            <a className="text-white"  href=""><FaInstagramSquare /></a>
-            <a className="text-white"  href=""><FaLinkedin /></a>
+            <a className="text-white" href="https://www.facebook.com/DanwilliamsConsult?mibextid=ZbWKwL"><FaFacebookSquare /></a>
+            <a className="text-white"  href="https://www.instagram.com/invites/contact/?i=ug7bk1p06c1x&utm_content=lxfpfn8"><FaInstagramSquare /></a>
+            <a className="text-white"  href="https://x.com/Official_DWCway?t=8e5y_rP7cnBoYtkZO3rg-w&s=09"><FaSquareXTwitter /></a>
             <a className="text-white"  href="https://bit.ly/DanWilliamsConsult"><FaWhatsappSquare /></a>
           </div>
 

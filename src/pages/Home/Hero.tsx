@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 const Hero = () => {
   return (
     <motion.section
-      className="hero h-[100vh] w-full bg-hero-bg bg-center bg-cover bg-opacity-8 text-white py-20 flex justify-center items-center font-pop relative"
+      className="hero h-[100vh] w-full bg-hero-bg bg-center bg-cover bg-opacity-8 text-white py-20 flex justify-center items-center font-pop relative overflow-hidden"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.2 }}

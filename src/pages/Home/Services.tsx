@@ -11,7 +11,7 @@ import { LuWallet } from "react-icons/lu";
 
 const Services = () => {
   return (
-    <section className="w-full h-[100%] py-[50px] flex flex-col items-center justify-center font-pop">
+    <section className="w-full h-[100%] py-[50px] flex flex-col items-center justify-center font-pop overflow-hidden">
 
         <h5 className="text-center text-[20px] md:text-[25px] font-bold mb-[10px] animate-bounce">WHAT WE OFFER</h5>
 

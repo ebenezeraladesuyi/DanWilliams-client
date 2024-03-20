@@ -4,7 +4,7 @@ import core from "../../assets/images/CoreValue.png";
 
 const Values = () => {
   return (
-    <div  className="w-full h-[100vh] md:h-[80vh] lg:h-[100vh py-[50px] flex flex-col items-center justify-center bg-[rgb(238,223,176)] font-pop ">
+    <div  className="w-full h-[100vh] md:h-[80vh] lg:h-[100vh py-[50px] flex flex-col items-center justify-center bg-[rgb(238,223,176)] font-pop overflow-hidden ">
 
         <h4 className="text-[17px] font-bold animate-bounce md:text-[25px] mb-[15px]">OUR CORE VALUES</h4>
         

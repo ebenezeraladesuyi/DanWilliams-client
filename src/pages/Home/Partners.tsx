@@ -57,7 +57,7 @@ const Partners = () => {
 
 
   return (
-    <div className="w-full h-[40vh] py-[50px] flex flex-col items-center justify-center bg-blac font-pop shadow-md">
+    <div className="w-full h-[40vh] py-[50px] flex flex-col items-center justify-center bg-blac font-pop shadow-md overflow-hidden">
         <div className="w-[90%] h-[80%] flex flex-col justify-center items-center">
 
             <h5 className="text-[17px] font-bold animate-bounce md:text-[25px] mb-[30px]">OUR PARTNERS</h5>

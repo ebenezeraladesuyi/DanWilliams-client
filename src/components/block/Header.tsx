@@ -45,7 +45,7 @@ const Header = () => {
                         <ol className='text-black hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Home</ol>
                     </NavLink>
 
-                    <NavLink to='/'>
+                    <NavLink to='/about'>
                         <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About Us</ol>
                     </NavLink>
 
@@ -61,9 +61,10 @@ const Header = () => {
                         <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Blog</ol>
                     </NavLink>
 
-                    <Link offset={-100} smooth={true} duration={500} to="contact">
+                    {/* <Link offset={-100} smooth={true} duration={500} to="contact"> */}
+                    <NavLink to='/contact'>
                         <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Talk To Us</ol>
-                    </Link>
+                    </NavLink>
 
                     {/* <NavLink to="/firststep">
                         <button className=' px-4 py-3 bg-[#80c41c] border-none hover:bg-[#3d82b3] text-white font-semibold animate-puls ml-[50px] rounded-[60px] transition-all duration-300 ease-in-out hover:px-5 hover:py-4'>
@@ -99,7 +100,7 @@ const Header = () => {
                             <ol className='text-white hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Home</ol>
                         </NavLink>
 
-                        <NavLink to='/'>
+                        <NavLink to='/about'>
                             <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About Us</ol>
                         </NavLink>
 
@@ -115,9 +116,10 @@ const Header = () => {
                             <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Blog</ol>
                         </NavLink>
 
-                        <Link offset={-100} smooth={true} duration={500} to="contact">
+                        {/* <Link offset={-100} smooth={true} duration={500} to="contact"> */}
+                        <NavLink to='/contact'>
                             <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Talk To Us</ol>
-                        </Link>
+                        </NavLink>
 
                         {/* <NavLink to="/firststep">
                             <button className='w-[150px] bg-[#80c41c] border-none hover:bg-[#3d82b3] text-white font-semibold animate-pulse  rounded-[60px]'>
