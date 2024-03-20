@@ -93,7 +93,7 @@ const Header = () => {
         {/* {
             dropdown ? */}
 
-            <div className={` ${dropdown ? 'transform translate-x-0' : 'transform -translate-y-full'} lg:hidden w-full h-[100vh] absolute bg-whit backdrop-blur-md top-0 transition-all ease-in-out z-30 duration-300`} onClick={showDropdown}>
+            <div className={` ${dropdown ? 'transform translate-x-0' : 'transform -translate-y-full'} lg:hidden w-full h-[100vh] absolute bg-whit backdrop-blur-m bg-black bg-opacity-60 top-0 transition-all ease-in-out z-30 duration-300`} onClick={showDropdown}>
                 <div className="w-full h-[320px]  flex flex-col pl-[15px] sm:pl-[35px] pt-[25px] text-[13px] gap-4 text-[#1f2035] top-[70px] absolute ">
                     {/* <li className="lg:flex items-center gap-5 text-[16px]"> */}
                         <NavLink to="/">

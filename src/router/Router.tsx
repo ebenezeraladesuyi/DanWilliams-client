@@ -4,12 +4,13 @@ import { lazy } from "react";
 import { HomeLayout } from "../layout";
 import ContactLayout from "../layout/ContactLayout";
 import AboutLayout from "../layout/AboutLayout";
-import About from "../pages/about/About";
+// import About from "../pages/about/About";
 // import Contact from "../pages/contact/Contact";
 
 
 const HomeComp = lazy(() => import ("../pages/Home/HomeComp"))
 const Contact = lazy(() => import ("../pages/contact/Contact"))
+const About = lazy(() => import ("../pages/about/About"))
 
 
 export const element = createBrowserRouter([
