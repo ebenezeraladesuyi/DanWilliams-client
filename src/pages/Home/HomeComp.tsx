@@ -1,5 +1,6 @@
 // import React from 'react'
 
+import Blog from "./Blog"
 import Hero from "./Hero"
 import Partners from "./Partners"
 import Preferred from "./Preferred"
@@ -17,6 +18,7 @@ const HomeComp = () => {
         <Values />
         <Preferred />
         <Structure />
+        <Blog />
         <Unveiling />
         <Partners />
 
