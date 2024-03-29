@@ -1,6 +1,7 @@
 // import React from 'react'
 
 import Values from "../Home/Values"
+import Strategist from "./Strategist"
 
 const About = () => {
   return (
@@ -51,6 +52,8 @@ const About = () => {
                 </li>
             </div>
         </div>
+
+        <Strategist />
 
         <Values />
     </div>
