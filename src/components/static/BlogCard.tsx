@@ -23,7 +23,7 @@ const BlogCard:React.FC<iBlogCard> = ({img, title, details}) => {
                 {title}
                 </h5>
 
-                <hr className="w-[30%] border-[2px] border-[#80c41c]" />
+                <hr className="w-[30%] border-[2px] border-[#eedfb0]" />
                 
                 <h6 className="text-[12px] md:text-[14px text-justify">
                     {/* As people, much of who we are today, how we behave, how we think, how we view the world, how we interpret situations, handles success, define failures and how we talk to ourselves and others is based on the collection of beliefs we’ve accumulated over our lifetimes. */}

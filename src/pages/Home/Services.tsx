@@ -22,9 +22,9 @@ const Services = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.9 }}
             >
-                <img className="w-[80%] border-l-[6px] rounded-md border-orange-500 border-t-[6px] absolute top-0 left-0 z-20 animate-bounc" src={img1} alt="" />
+                <img className="w-[80%] border-l-[6px] rounded-md border-[#eedfb0] border-t-[6px] absolute top-0 left-0 z-20 animate-bounc" src={img1} alt="" />
 
-                <img className="w-[80%] absolute left-[100px] top-[180px] border-r-[6px] border-b-[6px] rounded-md border-orange-500 animate-bounc" src={img2} alt="" />
+                <img className="w-[80%] absolute left-[100px] top-[180px] border-r-[6px] border-b-[6px] rounded-md border-[#eedfb0] animate-bounc" src={img2} alt="" />
             </motion.div>
 
             <div className="flex flex-wrap items-center justify-center md:justify-between lg:w-[55%] w-full gap-1 lg:gap-4">
@@ -37,7 +37,7 @@ const Services = () => {
                 <ServiceCard 
                     icon={<BsBank />}
                     title="BRANDING & PRINTING"
-                    details="We provide branding and printing services of all categories. We provide fast, reliable, and high quality graphic design and printing solutions that can help you meet your deadlines, exceed your expectations."
+                    details="We provide branding and printing services of all categories. We provide fast, reliable, and high quality graphic design and printing solutions that can help you meet your deadlines and exceed your expectations."
                 />
 
                 <ServiceCard 
@@ -53,6 +53,11 @@ const Services = () => {
                 />
             </div>
         </div>
+        
+
+            <button className="mt-[30px] p-2 px-4 bg-[#000000] text-white border-none hover:bg-[#eedfb0] hover:text-[#000000] font-bold transition-all duration-300 ease-in-out ">
+                Click To See More Of Our Services
+            </button>
 
     </section>
   )
