@@ -10,13 +10,17 @@ import prof from "../../assets/offer/My-leadeership-journey.jpg";
 
 const Offer = () => {
     return (
-      <div className="w-full h-[100%] md:h-[40vh py-[50px] flex flex-col items-center justify-center font-pop overflow-hidden shadow-md">
+      <div className="w-full h-[100%] md:h-[40vh pb-[50px] flex flex-col items-center justify-center font-pop overflow-hidden shadow-md bg-blac text-whit">
   
-        <h3 className="w-full text-[20px] md:text-[30px] font-bold text-center animate-bounc h-[35vh] flex flex-col gap-2 justify-center items-center shadow-md mb-[40px]">WHAT WE DO 
+        <h3 className="w-full text-[20px] md:text-[30px] font-bold text-center animate-bounc h-[45vh] flex flex-col gap-2 justify-center items-center shadow-md mb-[40px] bg-black text-[#eedfb0] bg-hero-bg3 bg-center bg-cover relative">
 
-            <h6 className="text-[12px] md:text-[15px] font-bold text-center md:w-[70%] lg:w-[60%]">
+            <h5 className="relative z-30 animate-pulse">WHAT WE DO </h5>
+
+            <h6 className="text-[12px] md:text-[15px] font-bold text-center md:w-[60%] lg:w-[40%] text-white relative z-30">
                 We have standby professionals that are ready to jump on your work and give you desired result within our areas of service.
             </h6>
+
+            <div className="absolute bg-black w-full h-full top-0 right-0 opacity-80"></div>
         </h3>
 
           <div className="w-[90%] flex flex-col items-center   gap-4">
