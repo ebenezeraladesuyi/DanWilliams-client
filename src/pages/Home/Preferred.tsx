@@ -23,7 +23,7 @@ const Preferred = () => {
                     
                     <PreferredCard 
                         num="02"
-                        title="WEALTH OF SERVICES"
+                        title="WEALTH OF EXPERIENCE"
                         details="Danwilliams Consult has worked with every type of client of diverse localities and with diverse products and services from different sector. By engaging Danwilliams Consult, you are banking on our wealth of experience in different sectors and technical know-how in helping you get result in no distant time."
                     />
                     
@@ -36,7 +36,7 @@ const Preferred = () => {
                     <PreferredCard 
                         num="04"
                         title="REMOTE SERVICES"
-                        details="Irrespective of your location, most of our engagements can be completed without you having to travel down to Nigeria or our physical office. With the help of technology, Danwilliams Consult will save you travel time and expenses, so you can focus on other issues of interests."
+                        details="Irrespective of your location, most of our engagements can be completed without you having to visit our physical office. With the help of technology, Danwilliams Consult will save you time and expenses, so you can focus on other issues of interests."
                     />
                 </div>
             </div>

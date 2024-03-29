@@ -16,13 +16,13 @@ const Monthly = () => {
 
                 <h5 className="text-[13px] lg:text-[18px]"><span className="font-bold text-orange-400">DATE:</span> Every 3rd Sunday of the Month</h5>
                 <h5 className="text-[13px] lg:text-[18px] "><span className="font-bold text-orange-400">TIME:</span> 8:00PM</h5>
-                <h5 className="text-[13px] lg:text-[18px] "><span className="font-bold text-orange-400">VENUE:</span> VIA TELEGRAM</h5>
+                <h5 className="text-[13px] lg:text-[18px] "><span className="font-bold text-orange-400">VENUE:</span>  TELEGRAM</h5>
                 
-                <h5 className="flex md:items-center flex-col md:flex-row gap-2 text-[13px] md:text-[15px] lg:text-[18px] ">Join our Telegram waiting room
-                    <a className="p-2 md:px-6 bg-black text-[#eedfb0] rounded-[15px]" href="https://t.me/danwilliamsconsult">Join Telegram</a>
+                <h5 className="flex md:items-center flex-col md:flex-row gap-2 text-[13px] md:text-[15px] lg:text-[18px] ">
+                    <a className="p-2 md:px-6 bg-black text-[#eedfb0] rounded-[15px]" href="https://t.me/danwilliamsconsult">Join our Telegram waiting room</a>
                 </h5>
 
-                <h5 className="mt-[20px] md:mt-[40px] md:items-start  flex flex-col md:flex-ro gap-2 md:gap-4 text-[13px] md:text-[15px] lg:text-[16px] border-[1px] md:border-none rounded-md p-2 md:p-0 border-[#000000] font-bold">Wanna be part of our triving Whatsapp Community? <a className="p-2 md:px-6  bg-black text-[#eedfb0] rounded-[15px] animate-pulse" href="https://chat.whatsapp.com/Gs9F8ckFQcbINcMzpgJ6AH">Join Our Whatsapp Community</a></h5>
+                <h5 className="mt-[20px] md:mt-[40px] md:items-start  flex flex-col md:flex-ro gap-2 md:gap-4 text-[13px] md:text-[15px] lg:text-[16px] border-[1px] md:border-none rounded-md p-2 md:p-0 border-[#000000] font-bold">Want to be part of our triving Whatsapp Community? <a className="p-2 md:px-6  bg-black text-[#eedfb0] rounded-[15px] animate-pulse" href="https://chat.whatsapp.com/Gs9F8ckFQcbINcMzpgJ6AH">Join Our Whatsapp Community</a></h5>
             </div>
 
             <div className="w-full md:w-[40%]">

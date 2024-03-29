@@ -22,7 +22,7 @@ const About = () => {
                 <h5 className="text-[20px] md:text-[30px] font-bold text-center animate-bounce">WHO ARE WE</h5>
 
                 <p className="">
-                    Danwilliams Consult is a socialpreneur firm, with a working vision to drive societal change through business peculiarities, professionalism and efficiency. We provide unique services that cut across Business Formation, Branding, Printing and Consulting.
+                    Danwilliams Consult is a social-preneur firm, with a working vision to drive societal change through business peculiarities, professionalism and efficiency. We provide unique services that cut across Business Formation, Branding & Printing, and  Professional Advisory.
                 </p>
 
                 <p>
@@ -30,7 +30,7 @@ const About = () => {
                 </p>
 
                 <p>
-                    With over 2 years of providing business registration, branding, printing, and professional advisory services to our clients; and a combined wealth of team experience of more than 10 years from different disciplines - entrepreneurship, business development, accounting and tax, branding & printing, Danwilliams Consult is your one-stop agency for pre-incorporation, and post-incorporation, branding and printing, and professional advisory matters.
+                    With over 5 years of providing result-driven services to our clients; and a combined wealth of team experience of more than 10 years from different disciplines - entrepreneurship, business development, accounting and tax, branding & printing, Danwilliams Consult is your one-stop agency for Corporate Affairs Commission (CAC),  Pre-Incorporation, and Post-Incorporation, Branding & Printing, and Professional Advisory matters.
                 </p>
 
             </div>

@@ -36,21 +36,21 @@ const Services = () => {
                 
                 <ServiceCard 
                     icon={<BsBank />}
-                    title="BANKING SUPPORT"
-                    details="We help to setup accounts that can be accessed anywhere in the world, and provide the required banking support services for new Nigerian companies."
+                    title="BRANDING & PRINTING"
+                    details="We provide branding and printing services of all categories. We provide fast, reliable, and high quality graphic design and printing solutions that can help you meet your deadlines, exceed your expectations."
                 />
 
                 <ServiceCard 
                     icon={<LuWallet />}
                     title="TAX & ACCOUNT SERVICES"
-                    details="We provide outsourced accounting, tax and audit services to small, medium and big companied in the most efficient and professional way."
+                    details="We provide outsourced Tax and Accounting Services for Businesses and Organizations. These includes, getting Tax Certificate (FIRS, JTB), Book Keeping, and Annual Returns Fillings."
                 />
 
-                {/* <ServiceCard 
+                <ServiceCard 
                     icon={<BiSpreadsheet />}
-                    title="COMPANY REGISTRATION"
-                    details="We assist Nigerian and foreign clients to incorporate thier proposed and ensure compliance with Government policies."
-                /> */}
+                    title="PROFESSIONAL ADVISORY"
+                    details="We provide professional advice that cuts across high performance, marketing and customer engagement. Our professional advisory service allows your employees to gain new skills, refine existing ones and stay up-to-date with the latest industry trends, ultimately strengthening your organization’s overall performance."
+                />
             </div>
         </div>
 

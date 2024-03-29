@@ -11,7 +11,7 @@ interface iServiceCard {
 
 const ServiceCard:React.FC<iServiceCard> = ({icon, title, details}) => {
   return (
-    <div className="w-[270px] md:w-[210px] h-[200px] lg:w-[300px] lg:h-[220px] flex items-cente justify-between hover:text-white hover:bg-black items-center p-2 rounded-md transition-all duration-1000 ease-in-out">
+    <div className="w-[270px] md:w-[210px] h-[250px] lg:w-[300px] lg:h-[270px] flex items-cente justify-between hover:text-white hover:bg-black items-center p-2 rounded-md transition-all duration-1000 ease-in-out">
 
         <div className="text-[30px] md:text-[20px] lg:text-[40px] border-[1px] p-2 rounded-md border-black">
             {/* <BiSpreadsheet /> */}
@@ -26,7 +26,7 @@ const ServiceCard:React.FC<iServiceCard> = ({icon, title, details}) => {
 
             <hr className="border-[2px] border-[#eedfb0]" />
 
-            <h5 className="text-[11px] lg:text-[14px]">
+            <h5 className="text-[10px] lg:text-[12px]">
                 {/* We assist Nigerian and foreign clients to incorporate thier proposed and ensure compliance with Government policies. */}
                 {details}
             </h5>

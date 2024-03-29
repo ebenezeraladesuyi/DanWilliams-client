@@ -26,9 +26,11 @@ const Header = () => {
             </div> */}
 
             {/* <div className='flex justify-between items-center w-full'> */}
-            <div className='lg:hidde p-2 rounded-md bg-white shadow-md w-[50px] md:[70px] z-40'>
+            <NavLink to='/'>
+                <div className='lg:hidde p-2 rounded-md bg-white shadow-md w-[50px] md:[70px] z-40'>
                 <img className="w-full " src={logo} alt="W2H-logo" />
-            </div>
+                </div>
+            </NavLink>
 
             {/* <div className='hidden lg:flex p-2 px-6 rounded-md bg-white shadow-md text-[20px] text-black gap-6'>
                 <a className='decoration- cursor-pointer text-black '><FaSquareFacebook /></a>
