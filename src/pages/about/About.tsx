@@ -1,5 +1,7 @@
 // import React from 'react'
 
+import Values from "../Home/Values"
+
 const About = () => {
   return (
     <div className="w-full md:h-[100vh flex flex-col justify-cente items-center font-mont pb-[40px] relative overflow-hidden">
@@ -11,7 +13,7 @@ const About = () => {
                 </h5>
         </div>
 
-        <div className="w-[90%] mt-[30px] flex flex-col justify-center items-center gap-6">
+        <div className="w-[90%] mt-[30px] flex flex-col justify-center items-center gap-6 mb-[20px]">
             {/* <div>
                 <img src="" alt="" />
             </div> */}
@@ -49,6 +51,8 @@ const About = () => {
                 </li>
             </div>
         </div>
+
+        <Values />
     </div>
   )
 }

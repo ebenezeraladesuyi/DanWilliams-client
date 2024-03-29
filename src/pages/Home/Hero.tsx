@@ -6,13 +6,13 @@ import Typewriter from 'typewriter-effect';
 const Hero = () => {
   return (
     <motion.section
-      className="hero h-[100vh] w-full bg-hero-bg bg-center bg-cover bg-opacity-8 text-white py-20 flex justify-center items-center font-pop relative overflow-hidden"
+      className="hero h-[100vh] w-full bg-hero-bg3 md:bg-hero-bg2 bg-scale-x-[-1] bg-center bg-cover bg-opacity-8 text-white py-20 flex justify-center items-center font-pop relative overflow-hidden"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.2 }}
     >
       
-      <div className="absolute bg-black w-full h-full opacity-40"></div>
+      <div className="absolute bg-black w-full h-full opacity-30"></div>
 
       <div className="container mx-auto w-[90%] z-30">
         <div className="flex flex-col md:flex-row items-center">
@@ -56,7 +56,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.9 }}
             >
-              We provide comprehensive solutions for business setup and management in Nigeria.
+              We provide comprehensive solutions for individuals and organizations in Nigeria.
             </motion.p>
             <motion.div
               initial={{ opacity: 0 }}

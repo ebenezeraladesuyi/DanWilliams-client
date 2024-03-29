@@ -11,7 +11,7 @@ import { LuWallet } from "react-icons/lu";
 
 const Services = () => {
   return (
-    <section className="w-full h-[100%] py-[50px] flex flex-col items-center justify-center font-pop overflow-hidden">
+    <section id="offer" className="w-full h-[100%] py-[50px] flex flex-col items-center justify-center font-pop overflow-hidden">
 
         <h5 className="text-center text-[20px] md:text-[25px] font-bold mb-[10px] animate-bounce">WHAT WE OFFER</h5>
 
@@ -37,7 +37,7 @@ const Services = () => {
                 <ServiceCard 
                     icon={<BsBank />}
                     title="BANKING SUPPORT"
-                    details="We help to setup accounts that can be accessed anywhere in the world, and provide the required banking support services for now Nigerian companies."
+                    details="We help to setup accounts that can be accessed anywhere in the world, and provide the required banking support services for new Nigerian companies."
                 />
 
                 <ServiceCard 

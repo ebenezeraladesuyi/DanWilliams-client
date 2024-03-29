@@ -42,9 +42,9 @@ const Preferred = () => {
             </div>
 
             <div className="lg:w-[40%] w-full relative">
-                <img className="w-[100%] lg:hidden lg:absolute left-[10%] rounded-md top-[40px]" src={lady} alt="" />
+                <img className="w-[100%] lg:hidden lg:absolut left-[10%] rounded-md shadow-md top-[40px" src={lady} alt="" />
 
-                <div className="w-[90%] h-full bg-lady-bg bg-cover bg-center rounded-md"></div>
+                <div className="w-[90%] h-full bg-lady-bg bg-cover bg-center rounded-md shadow-lg"></div>
             </div>
 
         </div>

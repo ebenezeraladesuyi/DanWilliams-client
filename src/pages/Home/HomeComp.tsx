@@ -2,12 +2,13 @@
 
 import Blog from "./Blog"
 import Hero from "./Hero"
+import Monthly from "./Monthly"
 import Partners from "./Partners"
 import Preferred from "./Preferred"
 import Services from "./Services"
 import Structure from "./Structure"
 import Unveiling from "./Unveiling"
-import Values from "./Values"
+// import Values from "./Values"
 
 const HomeComp = () => {
   return (
@@ -15,11 +16,12 @@ const HomeComp = () => {
 
         <Hero />
         <Services />
-        <Values />
+        {/* <Values /> */}
         <Preferred />
         <Structure />
         <Blog />
         <Unveiling />
+        <Monthly />
         <Partners />
 
     </div>

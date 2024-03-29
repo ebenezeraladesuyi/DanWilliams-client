@@ -49,7 +49,7 @@ const Header = () => {
                         <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About Us</ol>
                     </NavLink>
 
-                    <Link offset={-100} smooth={true} duration={500} to="testimonies">
+                    <Link offset={-100} smooth={true} duration={500} to="offer">
                         <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>What We Do</ol>
                     </Link>
 
@@ -104,7 +104,7 @@ const Header = () => {
                             <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About Us</ol>
                         </NavLink>
 
-                        <Link  offset={-100} smooth={true} duration={500} to="testimonies">
+                        <Link  offset={-100} smooth={true} duration={500} to="offer">
                             <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>What We Do</ol>
                         </Link>
 
