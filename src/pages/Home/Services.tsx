@@ -18,7 +18,7 @@ const Services = () => {
 
         <h5 className="text-center text-[20px] md:text-[25px] font-bold mb-[10px] animate-bounce">WHAT WE OFFER</h5>
 
-        <div className="w-[90%] flex flex-col md:flex-row  justify-between ">
+        <div className="w-[90%] flex flex-col md:flex-row  justify-between md:justif">
 
             <motion.div className="hidden lg:flex lg:relative w-[37%]"
               initial={{ opacity: 0 }}

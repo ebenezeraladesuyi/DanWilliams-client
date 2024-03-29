@@ -16,7 +16,7 @@ const Offer = () => {
 
             <h5 className="relative z-30 animate-pulse">WHAT WE DO </h5>
 
-            <h6 className="text-[12px] md:text-[15px] font-bold text-center md:w-[60%] lg:w-[40%] text-white relative z-30">
+            <h6 className="text-[12px] md:text-[15px] font-bold text-center w-[85%] md:w-[60%] lg:w-[40%] text-white relative z-30">
                 We have standby professionals that are ready to jump on your work and give you desired result within our areas of service.
             </h6>
 
