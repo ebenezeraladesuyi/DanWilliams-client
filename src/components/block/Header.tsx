@@ -99,28 +99,28 @@ const Header = () => {
                 <div className="w-full h-[320px]  flex flex-col pl-[15px] sm:pl-[35px] pt-[25px] text-[13px] gap-4 text-[#1f2035] top-[70px] absolute ">
                     {/* <li className="lg:flex items-center gap-5 text-[16px]"> */}
                         <NavLink to="/">
-                            <ol className='text-white hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Home</ol>
+                            <ol className='text-white hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Home</ol>
                         </NavLink>
 
                         <NavLink to='/about'>
-                            <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About Us</ol>
+                            <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About Us</ol>
                         </NavLink>
 
                         <Link  offset={-100} smooth={true} duration={500} to="offer">
-                            <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>What We Do</ol>
+                            <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>What We Do</ol>
                         </Link>
 
                         <NavLink to='/'>
-                            <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Events</ol>
+                            <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Events</ol>
                         </NavLink>
 
                         <Link offset={-100} smooth={true} duration={500} to="blog">
-                            <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Blog</ol>
+                            <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Blog</ol>
                         </Link>
 
                         {/* <Link offset={-100} smooth={true} duration={500} to="contact"> */}
                         <NavLink to='/contact'>
-                            <ol className='text-white  hover:text-[#80c41c] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Talk To Us</ol>
+                            <ol className='text-white  hover:text-[#eedfb0s] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Talk To Us</ol>
                         </NavLink>
 
                         {/* <NavLink to="/firststep">

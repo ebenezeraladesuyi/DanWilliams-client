@@ -14,9 +14,9 @@ const Monthly = () => {
 
                 <h5 className="hidden md:block text-[14px] lg:text-[18px] md:font-bold">MONTHLY <span>LIVE ON TELEGRAM</span></h5>
 
-                <h5 className="text-[13px] lg:text-[18px]"><span className="font-bold text-orange-400">DATE:</span> Every 3rd Sunday of the Month</h5>
-                <h5 className="text-[13px] lg:text-[18px] "><span className="font-bold text-orange-400">TIME:</span> 8:00PM</h5>
-                <h5 className="text-[13px] lg:text-[18px] "><span className="font-bold text-orange-400">VENUE:</span>  TELEGRAM</h5>
+                <h5 className="text-[13px] lg:text-[18px]"><span className="font-bold text-[#eedfb0]">DATE:</span> Every 3rd Sunday of the Month</h5>
+                <h5 className="text-[13px] lg:text-[18px] "><span className="font-bold text-[#eedfb0]">TIME:</span> 8:00PM</h5>
+                <h5 className="text-[13px] lg:text-[18px] "><span className="font-bold text-[#eedfb0]">VENUE:</span>  TELEGRAM</h5>
                 
                 <h5 className="flex md:items-center flex-col md:flex-row gap-2 text-[13px] md:text-[15px] lg:text-[18px] ">
                     <a className="p-2 md:px-6 bg-black text-[#eedfb0] rounded-[15px]" href="https://t.me/danwilliamsconsult">Join our Telegram waiting room</a>
