@@ -6,8 +6,11 @@ import img1 from "../../assets/images/biz2.jpg";
 import img2 from "../../assets/images/biz4.jpg";
 import ServiceCard from "../../components/static/ServiceCard";
 import { BiSpreadsheet } from "react-icons/bi";
-import { BsBank } from "react-icons/bs";
+// import { BsBank } from "react-icons/bs";
 import { LuWallet } from "react-icons/lu";
+import { TbBrandAdobe } from "react-icons/tb";
+import { RiCustomerService2Line } from "react-icons/ri";
+
 
 const Services = () => {
   return (
@@ -35,7 +38,7 @@ const Services = () => {
                 />
                 
                 <ServiceCard 
-                    icon={<BsBank />}
+                    icon={<TbBrandAdobe />}
                     title="BRANDING & PRINTING"
                     details="We provide branding and printing services of all categories. We provide fast, reliable, and high quality graphic design and printing solutions that can help you meet your deadlines and exceed your expectations."
                 />
@@ -47,7 +50,7 @@ const Services = () => {
                 />
 
                 <ServiceCard 
-                    icon={<BiSpreadsheet />}
+                    icon={<RiCustomerService2Line />}
                     title="PROFESSIONAL ADVISORY"
                     details="We provide professional advice that cuts across high performance, marketing and customer engagement. Our professional advisory service allows your employees to gain new skills, refine existing ones and stay up-to-date with the latest industry trends, ultimately strengthening your organization’s overall performance."
                 />
