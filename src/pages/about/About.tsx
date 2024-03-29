@@ -53,9 +53,9 @@ const About = () => {
             </div>
         </div>
 
-        <Strategist />
-
         <Values />
+
+        <Strategist />
     </div>
   )
 }

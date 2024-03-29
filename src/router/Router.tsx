@@ -4,6 +4,8 @@ import { lazy } from "react";
 import { HomeLayout } from "../layout";
 import ContactLayout from "../layout/ContactLayout";
 import AboutLayout from "../layout/AboutLayout";
+import OfferLayout from "../layout/OfferLayout";
+import Offer from "../pages/offer/Offer";
 // import About from "../pages/about/About";
 // import Contact from "../pages/contact/Contact";
 
@@ -41,6 +43,16 @@ export const element = createBrowserRouter([
             {
                 index: true,
                 element: <About />
+            }
+        ]
+    },
+    {
+        path: "/offer",
+        element: <OfferLayout />,
+        children: [
+            {
+                index: true,
+                element: <Offer />
             }
         ]
     },
