@@ -4,6 +4,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import Countdown from "../../components/static/Countdown";
 import Sliders from "./Sliders";
 import Sliders2 from "./Sliders2";
+import { NavLink } from "react-router-dom";
 
 const Unveilling = () => {
 
@@ -43,7 +44,9 @@ const Unveilling = () => {
                     <h5 className="text-[13px] md:text-[15px] lg:text-[18px] text-center md:text-left "><span className="font-bold text-[#eedfb0]">VENUE:</span>  TO BE ANNOUNCED</h5>
 
                     <h5 className="mt-[15px] text-[12px] md:text-[15px] lg:text-[17px] flex flex-col items-center md:items-start gap-2">Register for this year's edition
-                        <button className="bg-[#eedfb0] text-black p-2 px-10 animate-pulse">HERE</button>
+                        <NavLink to="/unveiling/register">
+                            <button className="bg-[#eedfb0] text-black p-2 px-10 animate-pulse">HERE</button>
+                        </NavLink>
                     </h5>
 
                     <h5 className="text-[13px] md:text-[15px] font-bold flex gap-3 items-center mt-[15px] w-full justify-center md:justify-start ">Follow us on <a href="https://www.instagram.com/invites/contact/?i=7wv9rqoqrlqr&utm_content=rkichl4" className="cursor-pointer text-white text-[18px] border-white border-[1px]  p-2 rounded-full"><FaInstagramSquare /></a></h5>

@@ -6,6 +6,7 @@ import ContactLayout from "../layout/ContactLayout";
 import AboutLayout from "../layout/AboutLayout";
 import OfferLayout from "../layout/OfferLayout";
 import UnveilingLayout from "../layout/UnveilingLayout";
+import Register from "../pages/register/Register";
 
 
 const HomeComp = lazy(() => import ("../pages/Home/HomeComp"))
@@ -63,6 +64,10 @@ export const element = createBrowserRouter([
             {
                 index: true,
                 element: <Unveilling />
+            },
+            {
+                path: "/unveiling/register",
+                element: <Register />
             }
         ]
     },
