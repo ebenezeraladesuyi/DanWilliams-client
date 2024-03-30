@@ -10,6 +10,7 @@ import { BiSpreadsheet } from "react-icons/bi";
 import { LuWallet } from "react-icons/lu";
 import { TbBrandAdobe } from "react-icons/tb";
 import { RiCustomerService2Line } from "react-icons/ri";
+import { NavLink } from "react-router-dom";
 
 
 const Services = () => {
@@ -58,9 +59,11 @@ const Services = () => {
         </div>
         
 
-            <button className="mt-[30px] p-2 px-4 bg-[#000000] text-white border-none hover:bg-[#eedfb0] hover:text-[#000000] font-bold transition-all duration-300 ease-in-out ">
-                Click To See More Of Our Services
-            </button>
+            <NavLink to="/offer">
+                <button className="mt-[30px] p-2 px-4 bg-[#000000] text-white border-none hover:bg-[#eedfb0] hover:text-[#000000] font-bold transition-all duration-300 ease-in-out ">
+                    Click To See More Of Our Services
+                </button>
+            </NavLink>
 
     </section>
   )

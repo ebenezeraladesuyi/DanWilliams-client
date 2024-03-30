@@ -1,11 +1,12 @@
 // import React from 'react'
 
 import Values from "../Home/Values"
+import Books from "./Books"
 import Strategist from "./Strategist"
 
 const About = () => {
   return (
-    <div className="w-full md:h-[100vh flex flex-col justify-cente items-center font-mont pb-[40px] relative overflow-hidden">
+    <div className="w-full md:h-[100vh flex flex-col justify-cente items-center font-mont pb-[40px relative overflow-hidden">
         
         <div className="w-full h-[300px] bg-blac p-10 rounded-b-[150px] rounded-bl-[150px] flex items-center justify-center bg-about-bg bg-cente bg-cover bg-opacity-30 relative overflow-hidden">
         <div className="absolute bg-black w-full h-full opacity-50"></div>
@@ -56,6 +57,8 @@ const About = () => {
         <Values />
 
         <Strategist />
+
+        <Books />
     </div>
   )
 }
