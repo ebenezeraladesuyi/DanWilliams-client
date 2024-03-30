@@ -18,6 +18,7 @@ export default {
         'about-bg' : "url('/src/assets/images/biz3.jpg')",
         'bg1' : "url('/src/assets/UnveilingSummit/8.png')",
         'bg2' : "url('/src/assets/UnveilingSummit/13.png')",
+        'bg3' : "url('/src/assets/UnveilingSummit/10.png')",
       }
     },
   },

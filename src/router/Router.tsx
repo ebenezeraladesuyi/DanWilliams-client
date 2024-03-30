@@ -5,14 +5,14 @@ import { HomeLayout } from "../layout";
 import ContactLayout from "../layout/ContactLayout";
 import AboutLayout from "../layout/AboutLayout";
 import OfferLayout from "../layout/OfferLayout";
-import Offer from "../pages/offer/Offer";
-// import About from "../pages/about/About";
-// import Contact from "../pages/contact/Contact";
+import UnveilingLayout from "../layout/UnveilingLayout";
 
 
 const HomeComp = lazy(() => import ("../pages/Home/HomeComp"))
 const Contact = lazy(() => import ("../pages/contact/Contact"))
 const About = lazy(() => import ("../pages/about/About"))
+const Offer = lazy(() => import ("../pages/offer/Offer"))
+const Unveilling = lazy(() => import ("../pages/unveiling/Unveilling"))
 
 
 export const element = createBrowserRouter([
@@ -53,6 +53,16 @@ export const element = createBrowserRouter([
             {
                 index: true,
                 element: <Offer />
+            }
+        ]
+    },
+    {
+        path: "/unveiling",
+        element: <UnveilingLayout />,
+        children: [
+            {
+                index: true,
+                element: <Unveilling />
             }
         ]
     },

@@ -56,8 +56,8 @@ const Header = () => {
                         <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>What We Do</ol>
                     </NavLink>
 
-                    <NavLink to='/'>
-                        <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Events</ol>
+                    <NavLink to='/unveiling'>
+                        <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Unveiling Summit</ol>
                     </NavLink>
 
                     <Link offset={-100} smooth={true} duration={500} to="blog">
@@ -112,8 +112,8 @@ const Header = () => {
                             <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>What We Do</ol>
                         </NavLink>
 
-                        <NavLink to='/'>
-                            <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Events</ol>
+                        <NavLink to='/unveiling'>
+                            <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Unveiling Summit</ol>
                         </NavLink>
 
                         <Link offset={-100} smooth={true} duration={500} to="blog">
