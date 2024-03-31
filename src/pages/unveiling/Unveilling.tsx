@@ -55,13 +55,22 @@ const Unveilling = () => {
         </div>
 
         {/* Countdown */}
-        <div className="bg-black h-[40vh] w-full flex items-center justify-center gap-4 py-[40px">
+        <div className="bg-black h-[50vh] w-full flex flex-col items-center justify-center gap-4 py-[40px">
             <div className="w-[70%]">
                 <h5 className="text-white text-center text-[16px] md:text-[25px] my-[10px] font-bold">Countdown To Event</h5>
 
                 <Countdown targetDate={targetDate} />
             </div>
+
+            <div className="flex flex-col items-center md:flex-row gap-2 text-white">
+                <h5 className="font-bold text-[14px]">For Support/Partnership</h5>
+
+                {/* <h5 className="flex gap-3 items-center">Click */}
+                    <a className="bg-[#eedfb0] p-2 px-4 rounded-[20px] text-black text-[15px]" href="https://chat.whatsapp.com/KmWOtTzAL0m7KYNBwsq39S">Contact Us</a>
+                {/* </h5> */}
+            </div>
         </div>
+        
 
         {/* About the summit */}
 

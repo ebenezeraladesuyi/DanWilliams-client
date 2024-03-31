@@ -9,7 +9,7 @@ const initialState = {
 };
 
 const ReduxState = createSlice({
-    name: "swys",
+    name: "unveiling",
     initialState,
     reducers: {
         User: (state, { payload } : PayloadAction<iUnveiling>) => 
