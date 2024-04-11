@@ -1,7 +1,7 @@
 // import React from 'react'
 
 import { Triangle } from "react-loader-spinner";
-import logo from "../../assets/images/DWC-Logo.png"
+// import logo from "../../assets/images/DWC-Logo.png"
 
 const IsLoading = () => {
 
@@ -10,7 +10,7 @@ const IsLoading = () => {
 
         {/* <i style={{fontSize:"15px", color:"#0a4757", marginBottom:"40px"}}>SWYS</i> */}
 
-        <img src={logo} className="w-[50px] mb-[20px]" alt="Logo" />
+        {/* <img src={logo} className="w-[50px] mb-[20px]" alt="Logo" /> */}
 
         <Triangle
             visible={true}
