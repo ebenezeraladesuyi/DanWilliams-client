@@ -24,7 +24,7 @@ const About = () => {
                 <h5 className="text-[20px] md:text-[30px] font-bold text-center animate-bounce">WHO ARE WE</h5>
 
                 <p className="">
-                    Danwilliams Consult is a social-preneur firm, with a working vision to drive societal change through business peculiarities, professionalism and efficiency. We provide unique services that cut across Business Formation, Branding & Printing, and  Professional Advisory.
+                    <b>Danwilliams Consult</b> is a social-preneur firm, <b>registered with the Corporate Affairs Commission (BN3819103)</b>, and with a working vision to drive societal change through business peculiarities, professionalism and efficiency. We provide unique services that cut across Business Formation, Branding & Printing, and  Professional Advisory.
                 </p>
 
                 <p>
