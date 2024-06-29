@@ -4,8 +4,8 @@ export interface iUnveiling {
     phoneNumber: string;
     department?: string;
     level? : string;
-    haveYou: string;
-    expectations: string;
+    haveYou?: string;
+    expectations?: string;
   }
 
   export interface iSubscribe {
