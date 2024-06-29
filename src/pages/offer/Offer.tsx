@@ -128,7 +128,8 @@ const Offer = () => {
                         <h6 className="text-[15px] md:text-[18px] font-bold text-center md:text-left">CORPORATE IDENTITY DESIGN</h6>
 
                         <p>
-                            We create appealing and winning brand identity guidelines that will immediately give your new or existing businesses the refreshing and professional look that big corporations are known for.
+                            We specialize in crafting brand identity guidelines that are not only visually compelling but also strategically aligned with your business goals. Whether you're launching a new venture or revitalizing an existing brand, our expertise ensures your identity guidelines exude professionalism and innovation. 
+                            <br />By meticulously defining elements such as logo usage, color palettes, typography, and visual style, we create a cohesive brand identity that resonates with your target audience. Our approach blends creativity with industry best practices, delivering guidelines that not only enhance brand recognition but also inspire trust and credibility. 
                         </p>
 
                         {/* <p>
@@ -174,7 +175,7 @@ const Offer = () => {
                         <h6 className="text-[15px] md:text-[18px] font-bold text-center md:text-left">BUSINESS PLAN DESIGN</h6>
 
                         <p>
-                            We turn your written business plan into a well designed and graphically appealing plan, that gives your plan a professional look.
+                            We specialize in transforming your written business plan into a meticulously designed and visually compelling document. Our expertise lies in enhancing the presentation of your ideas, ensuring they not only convey clarity and coherence but also captivate with a professional aesthetic. By integrating impactful graphics, intuitive layouts, and strategic use of visuals, we elevate your business plan to resonate powerfully with stakeholders. This approach not only enhances readability but also underscores your commitment to professionalism and attention to detail, setting a strong impression that aligns with your business's ambitions and goals.
                         </p>
 
                         {/* <p>
@@ -224,7 +225,7 @@ const Offer = () => {
                         </p>
 
                         <p>
-                            <h5 className="font-bold">We are available to help get Tax Identification Number for:</h5>
+                            {/* <h5 className="font-bold">We are available to help get Tax Identification Number for:</h5> */}
 
                             <li>Logo Design </li>
                             <li>E-flier Design</li>
@@ -276,7 +277,7 @@ const Offer = () => {
                         </p>
 
                         <p>
-                            <h5 className="font-bold">We are available to help get Tax Identification Number for:</h5>
+                            {/* <h5 className="font-bold">We are available to help get Tax Identification Number for:</h5> */}
 
                             <li>Blog</li>
                             <li>Corporate</li>
@@ -322,6 +323,20 @@ const Offer = () => {
 
                         <p>
                             We provide professional advice that cuts across high performance, marketing and customer engagement. Our professional advisory service allows your employees to gain new skills, refine existing ones and stay up-to-date with the latest industry trends, ultimately strengthening your organization’s overall performance.
+                        </p>
+                        
+                        <p>
+                            {/* <h5 className="font-bold">We are available to help get Tax Identification Number for:</h5> */}
+
+                            <li>Providing guidance on business planning and goal setting</li>
+                            <li>Developing and implementing growth strategies and expansion plans</li>
+                            <li>Acting as a trusted advisor in decision-making processes</li>
+                            <li>Advising on mergers, acquisitions, and strategic partnerships</li>
+                            {/* <li>Educational</li>
+                            <li>Entertainment</li>
+                            <li>Portfolio</li>
+                            <li>Event</li>
+                            <li>Business</li> */}
                         </p>
 
                     </div>

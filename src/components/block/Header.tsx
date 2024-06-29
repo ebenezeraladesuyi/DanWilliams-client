@@ -3,7 +3,7 @@ import logo from "../../assets/images/DWC-Logo.png";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { NavLink } from 'react-router-dom';
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 const Header = () => {
 
@@ -60,9 +60,9 @@ const Header = () => {
                         <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Unveiling Summit</ol>
                     </NavLink>
 
-                    <Link offset={-100} smooth={true} duration={500} to="blog">
+                    {/* <Link offset={-100} smooth={true} duration={500} to="blog">
                         <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Blog</ol>
-                    </Link>
+                    </Link> */}
 
                     {/* <Link offset={-100} smooth={true} duration={500} to="contact"> */}
                     <NavLink to='/contact'>
@@ -116,9 +116,9 @@ const Header = () => {
                             <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Unveiling Summit</ol>
                         </NavLink>
 
-                        <Link offset={-100} smooth={true} duration={500} to="blog">
+                        {/* <Link offset={-100} smooth={true} duration={500} to="blog">
                             <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Blog</ol>
-                        </Link>
+                        </Link> */}
 
                         {/* <Link offset={-100} smooth={true} duration={500} to="contact"> */}
                         <NavLink to='/contact'>

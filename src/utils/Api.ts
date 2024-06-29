@@ -1,7 +1,7 @@
 import { iUnveiling} from "../types/Interface";
 import axios from "axios";
 
-export const url = "https://mfmyc-ado.onrender.com"
+export const url = import.meta.env.VITE_APP_API_URL
  
 
 // register attendee

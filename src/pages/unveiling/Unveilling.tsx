@@ -1,5 +1,5 @@
 // import React from 'react'
-import anti from "../../assets/UnveilingSummit/Anticipate.png";
+import anti from "../../assets/UnveilingSummit/BEHIND_THE_SCENE_1.jpg";
 import { FaInstagramSquare } from "react-icons/fa";
 import Countdown from "../../components/static/Countdown";
 import Sliders from "./Sliders";
@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 const Unveilling = () => {
 
-    const targetDate = new Date('2024-07-01T10:00:00');
+    const targetDate = new Date('2024-07-26T10:00:00');
 
     // const [scroll, setScroll] = React.useState(false);
 
@@ -37,11 +37,11 @@ const Unveilling = () => {
                     <h4 className="text-[17px] md:text-[22px] lg:text-[25px] font-bold text-center md:text-left">Anticipate <br/><span className="text-[20px] md:text-[26px] lg:text-[38px]">UNVEILING SUMMIT 2024</span></h4>
                     <h6 className="text-[12px] md:text-[15px] text-center md:text-left mb-[20px]">(ONLINE & ONSITE)</h6>
 
-                    <h5 className="text-[13px] md:text-[15px] lg:text-[18px] text-center md:text-left"><span className="font-bold text-[#eedfb0]">DATE:</span> July, 2024.</h5>
+                    <h5 className="text-[13px] md:text-[15px] lg:text-[18px] text-center md:text-left"><span className="font-bold text-[#eedfb0]">DATE:</span> 26th July, 2024.</h5>
 
-                    <h5 className="text-[13px] md:text-[15px] lg:text-[18px] text-center md:text-left "><span className="font-bold text-[#eedfb0]">TIME:</span> 10:00PM</h5>
+                    <h5 className="text-[13px] md:text-[15px] lg:text-[18px] text-center md:text-left "><span className="font-bold text-[#eedfb0]">TIME:</span> 10:00AM</h5>
 
-                    <h5 className="text-[13px] md:text-[15px] lg:text-[18px] text-center md:text-left "><span className="font-bold text-[#eedfb0]">VENUE:</span>  TO BE ANNOUNCED</h5>
+                    <h5 className="text-[13px] md:text-[15px] lg:text-[18px] text-center md:text-left "><span className="font-bold text-[#eedfb0]">VENUE:</span>  Students' Union Hall, The Federal Polytecnic, Ado-Ekiti, Ekiti- State.</h5>
 
                     <h5 className="mt-[15px] text-[12px] md:text-[15px] lg:text-[17px] flex flex-col items-center md:items-start gap-2">Register for this year's edition
                         <NavLink to="/unveiling/register">
@@ -66,7 +66,7 @@ const Unveilling = () => {
                 <h5 className="font-bold text-[14px]">For Support/Partnership</h5>
 
                 {/* <h5 className="flex gap-3 items-center">Click */}
-                    <a className="bg-[#eedfb0] p-2 px-4 rounded-[20px] text-black text-[15px]" href="https://chat.whatsapp.com/KmWOtTzAL0m7KYNBwsq39S">Contact Us</a>
+                    <a className="bg-[#eedfb0] p-2 px-4 rounded-[20px] text-black text-[15px]" href="https://bit.ly/DanWilliamsConsult">Contact Us</a>
                 {/* </h5> */}
             </div>
         </div>

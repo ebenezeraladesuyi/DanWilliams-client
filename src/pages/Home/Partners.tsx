@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import img1 from "../../assets/images/1.svg"
-import img2 from "../../assets/images/2.svg"
+import img2 from "../../assets/images/GAC-logo.png"
 import img3 from "../../assets/images/3.svg"
 import img4 from "../../assets/images/4.svg"
 // import img5 from "../../assets/images/5.svg"

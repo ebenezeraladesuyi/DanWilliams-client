@@ -8,7 +8,7 @@ export interface iUnveiling {
     expectations: string;
   }
 
-  // export interface iSubscribe {
-  //   fullName? : string,
-  //   email? : string,
-  // }
+  export interface iSubscribe {
+    fullName? : string,
+    email? : string,
+  }

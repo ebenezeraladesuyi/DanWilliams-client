@@ -30,8 +30,8 @@ const Footer = () => {
               </div>
 
               <div>
-                <h5>Nova Road 3, Adebayo, Ado-Ekiti, Ekiti</h5>
-                <h5>Irawoosan Street, Ketu Alapere, Lagos.</h5>
+                <h5>Nova Road 3, Adebayo, Ado-Ekiti, Ekiti State.</h5>
+                {/* <h5>Irawoosan Street, Ketu Alapere, Lagos State.</h5> */}
               </div>
             </div>
 
@@ -74,7 +74,7 @@ const Footer = () => {
             <a className="text-white" href="https://www.facebook.com/DanwilliamsConsult?mibextid=ZbWKwL"><FaFacebookSquare /></a>
             <a className="text-white"  href="https://www.instagram.com/invites/contact/?i=ug7bk1p06c1x&utm_content=lxfpfn8"><FaInstagramSquare /></a>
             <a className="text-white"  href="https://x.com/Official_DWCway?t=8e5y_rP7cnBoYtkZO3rg-w&s=09"><FaSquareXTwitter /></a>
-            <a className="text-white"  href="https://chat.whatsapp.com/Gs9F8ckFQcbINcMzpgJ6AH"><FaWhatsappSquare /></a>
+            <a className="text-white"  href="https://chat.whatsapp.com/KmWOtTzAL0m7KYNBwsq39S"><FaWhatsappSquare /></a>
           </div>
 
         </div>
