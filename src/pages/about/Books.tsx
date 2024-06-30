@@ -29,7 +29,7 @@ const Books = () => {
 
                     <h5 className="font-bold text-[12px] md:text-[15px] lg:text-[18px]"><span className="text-white font-bold">6.</span> BECOMING A SUCCESSFUL STUDENT ENTREPRENEUR</h5>
                     
-                    <a className="p-2 px-6 bg-black text-white rounded-[20px] mt-[10px]" href="https://selar.com/DanWilliamsConsult">Order Our Books</a>
+                    <a className="p-2 px-6 bg-black text-white rounded-[20px] mt-[10px]" href="https://selar.co/DanWilliamsConsult">Order Our Books</a>
 
                     <div className="mt-[25px] text-[12px] md:text-[15px] lg:text-[18px]">
                         <h5 className="font-bold text-[14px] md:text-[17px]">Connect with us by clicking on the icon</h5>

@@ -119,13 +119,13 @@ const Register = () => {
                 <p className="text-[8px] mt-[-10px] mb-[5px]">{errors?.level && errors?.level.message}</p>
 
                 
-                <input className="w-full h-[40px] p-[10px]  border-[1px] rounded outline-none text-[14px]" type="text" placeholder="Have You Attended in The Past. " 
+                <input className="w-full h-[40px] p-[10px]  border-[1px] rounded outline-none text-[14px]" type="text" placeholder="Have You Attended in The Past?" 
                 {...register('haveYou')}
                 />
                 <p className="text-[8px] mt-[-10px] mb-[5px]">{errors?.haveYou && errors?.haveYou.message}</p>
                 
 
-                <textarea className="w-full h-[120px] p-[10px]  border-[1px] rounded outline-none text-[14px] mt-[10px" placeholder="What Are Your Expectations" 
+                <textarea className="w-full h-[120px] p-[10px]  border-[1px] rounded outline-none text-[14px] mt-[10px" placeholder="What Are Your Expectations?" 
                 {...register('expectations')}
                 />
                 <p className="text-[8px] mt-[-10px] mb-[5px]">{errors?.expectations && errors?.expectations.message}</p>
