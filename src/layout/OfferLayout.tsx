@@ -5,7 +5,7 @@ import { Footer, Header } from "../components/block"
 
 const OfferLayout = () => {
   return (
-    <div>
+    <div className="bg-white">
         <Header />
         <Outlet />
         <Footer />

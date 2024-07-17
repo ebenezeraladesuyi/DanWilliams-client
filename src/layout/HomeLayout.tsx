@@ -5,7 +5,7 @@ import { Footer, Header } from "../components/block"
 
 const HomeLayout = () => {
   return (
-    <div>
+    <div className="bg-white">
 
         <Header />
 
