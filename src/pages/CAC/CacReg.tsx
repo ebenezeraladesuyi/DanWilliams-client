@@ -76,18 +76,21 @@ const CacReg = () => {
                         name="fullName"
                         value={formData.fullName}
                         onChange={handleChange}
+                        required
                         />
 
                         <input type="email"  placeholder="Email" className="w-full h-[45px] p-2 pl-3 border-white border-[1px] rounded-md  bg-transparent text-white text-[14px] md:text-[16px] outline-none"  
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
+                        required
                         />
 
                         <input type="text"  placeholder="Phone Number" className="w-full h-[45px] p-2 pl-3 border-white border-[1px] rounded-md  bg-transparent text-white text-[14px] md:text-[16px] outline-none"  
                         name="phoneNumber"
                         value={formData.phoneNumber}
                         onChange={handleChange}
+                        required
                         />
 
                         
