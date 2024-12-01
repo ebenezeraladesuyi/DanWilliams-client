@@ -31,8 +31,8 @@ const RegistrationAd: React.FC = () => {
               Don’t Miss Out!
             </h2>
             <p className="text-gray-600 mb-6">
-              Join us for an exciting opportunity to enhance your skills.  
-              Click below to register now!
+              Equip yourself with CAC Registration and make money doing it.  
+              Click below to register and join the Waitlist.
             </p>
 
             <NavLink to="/cac">

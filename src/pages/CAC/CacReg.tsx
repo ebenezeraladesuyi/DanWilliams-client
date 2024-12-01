@@ -1,5 +1,5 @@
 import React from "react";
-import forexImg from "../../assets/images/Trans.jpg";
+import forexImg from "../../assets/images/DanWilliams-03.jpg";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { DatasIsaLoading } from "../isLoading/DataIsLoading";
