@@ -1,5 +1,6 @@
 // import React from 'react'
 
+import RegistrationAd from "../PopUp/RegistrationAd"
 import Blog from "./Blog"
 import Hero from "./Hero"
 import Monthly from "./Monthly"
@@ -14,8 +15,7 @@ import Unveiling from "./Unveiling"
 const HomeComp = () => {
   return (
     <div>
-
-        <Hero />
+        <RegistrationAd  />        <Hero />
         <Services />
         {/* <Values /> */}
         <Preferred />
