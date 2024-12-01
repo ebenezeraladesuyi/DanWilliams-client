@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const RegistrationAd: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,8 +17,16 @@ const RegistrationAd: React.FC = () => {
   return (
     <>
       {isVisible && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center md:justify-end items-center md:items-end z-50 ">
-          <div className="bg-white rounded-lg shadow-lg w-11/12 max-w-md p-6 text-center relative md:mb-[40px] md:mr-[40px]">
+        <motion.div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center md:justify-end items-center md:items-end z-50 "
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.8, delay: 1.5 }}
+            >
+          <motion.div className="bg-white rounded-lg shadow-lg w-11/12 max-w-md p-6 text-center relative md:mb-[40px] md:mr-[40px]"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.8, delay: 1.8 }}
+            >
             <h2 className="text-2xl font-bold text-gray-800 mb-4">
               Don’t Miss Out!
             </h2>
@@ -43,8 +52,8 @@ const RegistrationAd: React.FC = () => {
             >
               ✖
             </button>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       )}
     </>
   );
