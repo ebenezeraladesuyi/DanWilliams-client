@@ -12,3 +12,9 @@ export interface iUnveiling {
     fullName? : string,
     email? : string,
   }
+
+  export interface iCac {
+    fullName: string,
+    email: string,
+    phoneNumber: string,
+  }

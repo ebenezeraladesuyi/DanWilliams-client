@@ -11,6 +11,7 @@ import { PersistGate } from 'redux-persist/integration/react'
 import { persistStore } from 'redux-persist'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { ToastContainer } from "react-toastify";
 
 const myclient = new QueryClient();
 const persiststore = persistStore(Store)
@@ -27,6 +28,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
             </QueryClientProvider>
           </PersistGate>
         </Provider>
+        <ToastContainer />
       </Suspense>
   </React.StrictMode>,
 )

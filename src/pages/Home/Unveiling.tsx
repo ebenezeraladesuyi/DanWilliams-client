@@ -21,9 +21,9 @@ const Unveiling = () => {
                     Unveiling Summit is geared towards “Building men to a level of confidence which enhance relevance earthly and beyond, and with a mission of creating an atmosphere where people get inspired, connected and ignited”.
                 </h6>
 
-                <button className="w-[200px md:w-[270px w-full h-[45px] text-[12px] md:text-[13px] border-none mt-[20px] font-bold text-white bg-black hover:text-[rgb(238,223,176)] transition-all duration-300 ease-in-out">
+                {/* <button className="w-[200px md:w-[270px w-full h-[45px] text-[12px] md:text-[13px] border-none mt-[20px] font-bold text-white bg-black hover:text-[rgb(238,223,176)] transition-all duration-300 ease-in-out">
                     Register For The Next Unveiling Summit
-                </button>
+                </button> */}
 
                 <h5 className="text-[13px] md:text-[15px] font-bold flex gap-3 items-center mt-[15px] w-full justify-center ">Follow us on <a href="https://www.instagram.com/invites/contact/?i=7wv9rqoqrlqr&utm_content=rkichl4" className="cursor-pointer text-black text-[18px] border-black border-[1px]  p-2 rounded-full"><FaInstagramSquare /></a></h5>
             </div>
